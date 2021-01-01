@@ -97,14 +97,60 @@ a {
   background: #51be95;
 }
 .main-content {
-  background: blue;
   float: left;
   width: 70%;
 }
+.mailing-first,
+.mailing {
+  float: left;
+  width: 48%;
+}
+.mailing-first {
+  margin-right: 4%;
+}
 .side-content {
-  background: pink;
   float: left;
   width: 30%;
+}
+.main-title {
+  font-weight: 400;
+  margin: 20px auto;
+  letter-spacing: -1px;
+}
+.main-desc {
+  margin: auto auto auto 0px;
+}
+.mailing-title > a {
+  color: green;
+  display: block;
+}
+.mailing-form {
+  margin: 0px 0 30px;
+  position: relative;
+}
+.mailing-desc {
+  margin: auto auto 5px;
+}
+
+input[type="email"] {
+  width: 100%;
+  border: 1px solid #cfe3dc;
+  border-radius: 4px;
+  height: 5rem;
+  padding: 6px 80px 8px 10px;
+}
+
+.mailing-form-btn {
+  position: absolute;
+  top: 25%;
+  right: 10px;
+  border: 0;
+  background: transparent;
+  color: #44b78b;
+  cursor: pointer;
+}
+.mailing-form-btn:hover {
+  color: green;
 }
 
 /* CONTENT_INFO */
