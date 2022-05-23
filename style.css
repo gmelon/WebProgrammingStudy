@@ -1,166 +1,190 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-}
-html {
-  font-size: 10px;
-}
-body {
-  min-width: 1020px;
-  font-size: 1.8rem;
-  line-height: 1.6;
-  font-family: Roboto, Avenir, sans-serif;
-}
-a {
-  text-decoration: none;
+    box-sizing: border-box;
 }
 
-/* HEADER */
-.header {
-  background: #1f4533;
-  height: 72px;
-  padding: 15px 0 4px;
+html {
+    font-size: 10px;
 }
+
+body {
+    min-width: 1020px;
+    font-size: 1.8rem;
+    line-height: 1.6;
+    font-family: Roboto, Avenir, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* HEADER */
+
+.header {
+    background: #1f4533;
+    height: 72px;
+    padding: 15px 0 4px;
+}
+
 .container,
 .container-float {
-  max-width: 1400px;
-  margin: 0 auto 0 auto;
-  padding: 0 20px;
-  position: relative;
+    max-width: 1400px;
+    margin: 0 auto 0 auto;
+    padding: 0 20px;
+    position: relative;
 }
 
 .container-float::after {
-  display: block;
-  content: "";
-  clear: both;
+    display: block;
+    content: "";
+    clear: both;
 }
 
 .logo {
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin: 0;
-  padding-left: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding-left: inherit;
 }
 
 .nav {
-  text-align: right;
+    text-align: right;
 }
+
 .list {
-  margin: 0;
-  font-size: 0;
+    margin: 0;
+    font-size: 0;
 }
+
 .listitem {
-  font-size: 1.3rem;
-  display: inline-block;
-  font-weight: 700;
+    font-size: 1.3rem;
+    display: inline-block;
+    font-weight: 700;
 }
 
-.listitem > a {
-  color: white;
-  display: block;
-  padding: 10px;
-  text-transform: uppercase;
+.listitem>a {
+    color: white;
+    display: block;
+    padding: 10px;
+    text-transform: uppercase;
 }
 
-.listitem > a:hover {
-  color: #c9f0dd;
+.listitem>a:hover {
+    color: #c9f0dd;
 }
+
 
 /* MAIN */
 
 .hero-section {
-  text-align: center;
-  padding: 50px 0;
-  border-bottom: 1px solid #cfe3dc;
+    text-align: center;
+    padding: 50px 0;
+    border-bottom: 1px solid #cfe3dc;
 }
+
 .intro-desc {
-  margin: 40px auto 50px;
-  width: 700px;
-  font-weight: 300;
-  font-size: 3.6rem;
-  line-height: 1.3;
+    margin: 40px auto 50px;
+    width: 700px;
+    font-weight: 300;
+    font-size: 3.6rem;
+    line-height: 1.3;
 }
 
 .cta {
-  color: white;
-  width: 300px;
-  margin: 0 auto 60px;
-  display: block;
-  padding: 20px 50px;
-  border-radius: 8px;
-  background: #44b78b;
+    color: white;
+    width: 300px;
+    margin: 0 auto 60px;
+    display: block;
+    padding: 20px 50px;
+    border-radius: 8px;
+    background: #44b78b;
 }
 
 .cta:hover {
-  background: #51be95;
+    background: #51be95;
 }
+
 .main-content {
-  float: left;
-  width: 70%;
+    float: left;
+    width: 70%;
 }
+
 .mailing-first,
 .mailing {
-  float: left;
-  width: 48%;
+    float: left;
+    width: 48%;
 }
+
 .mailing-first {
-  margin-right: 4%;
+    margin-right: 4%;
 }
+
 .side-content {
-  float: left;
-  width: 30%;
+    float: left;
+    width: 30%;
 }
+
 .main-title {
-  font-weight: 400;
-  margin: 20px auto;
-  letter-spacing: -1px;
+    font-weight: 400;
+    margin: 20px auto;
+    letter-spacing: -1px;
 }
+
 .main-desc {
-  margin: auto auto auto 0px;
+    margin: auto auto auto 0px;
 }
-.mailing-title > a {
-  color: green;
-  display: block;
+
+.mailing-title>a {
+    color: green;
+    display: block;
 }
+
 .mailing-form {
-  margin: 0px 0 30px;
-  position: relative;
+    margin: 0px 0 30px;
+    position: relative;
 }
+
 .mailing-desc {
-  margin: auto auto 5px;
+    margin: auto auto 5px;
 }
 
 input[type="email"] {
-  width: 100%;
-  border: 1px solid #cfe3dc;
-  border-radius: 4px;
-  height: 5rem;
-  padding: 6px 80px 8px 10px;
+    width: 100%;
+    border: 1px solid #cfe3dc;
+    border-radius: 4px;
+    height: 5rem;
+    padding: 6px 80px 8px 10px;
 }
 
 .mailing-form-btn {
-  position: absolute;
-  top: 25%;
-  right: 10px;
-  border: 0;
-  background: transparent;
-  color: #44b78b;
-  cursor: pointer;
-}
-.mailing-form-btn:hover {
-  color: green;
+    position: absolute;
+    top: 25%;
+    right: 10px;
+    border: 0;
+    background: transparent;
+    color: #44b78b;
+    cursor: pointer;
 }
 
+.mailing-form-btn:hover {
+    color: green;
+}
+
+
 /* CONTENT_INFO */
+
 .content-info {
-  background: green;
+    background: green;
 }
+
 .links {
-  background: lightgreen;
+    background: lightgreen;
 }
+
 .footer {
-  background: purple;
-  clear: both;
+    background: purple;
+    clear: both;
 }
